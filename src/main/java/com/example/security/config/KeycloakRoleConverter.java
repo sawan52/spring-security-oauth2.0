@@ -31,7 +31,7 @@ public class KeycloakRoleConverter implements Converter<Jwt, Collection<GrantedA
 
 
     /**
-     * Below code is when we are implementing our own Auth-Server
+     * Below code can be used when we are implementing our own Auth-Server
      * @param source the source object to convert, which must be an instance of {@code S} (never {@code null})
      * @return
      */
